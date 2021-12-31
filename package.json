@@ -1,0 +1,27 @@
+{
+  "name": "sleep",
+  "version": "0.0.1",
+  "description": "Promise based async sleep function.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "start": "npm run build && node js/demo/main.js",
+    "build": "date +\"%T\" && echo \"Cleaning...\" && rm -rf ./js && echo \"Compiling...\" && tsc && echo \"Done!\" && date +\"%T\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jellybeanci/sleep.git"
+  },
+  "keywords": [
+    "sleep",
+    "async",
+    "promise"
+  ],
+  "author": "Goksel KUCUKSAHIN <gokselkucuksahin@gmail.com> (https://github.com/GokselKUCUKSAHIN)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jellybeanci/sleep/issues"
+  },
+  "homepage": "https://github.com/jellybeanci/sleep#readme"
+}

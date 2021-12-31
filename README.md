@@ -1,2 +1,2 @@
-# sleep
-Promise based async sleep module.
+# moosedb
+Simple MongoDB Driver.
