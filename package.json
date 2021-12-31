@@ -1,5 +1,5 @@
 {
-  "name": "sleep",
+  "name": "@jellybeanci/sleep",
   "version": "0.0.1",
   "description": "Promise based async sleep function.",
   "main": "index.js",
